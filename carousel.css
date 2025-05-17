@@ -33,36 +33,54 @@ body {
   height: 32rem;
 }
 
-/* MARKETING CONTENT
+/*  bgi(↓テンプレじゃない)
 -------------------------------------------------- */
 
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-.marketing h2 {
-  font-weight: 400;
-}
-.marketing .col-lg-4 p {
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
+.container {
+  background-image: url(./img/bgi1.jpg);
+  height: 6580px;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-/* Featurettes
-------------------------- */
+.container2 {
+  background-image: url(./img/bgi2.jpg);
 
-.featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  height: 2400px;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -0.05rem;
+/*  nav
+-------------------------------------------------- */
+
+.nav-icon {
+  width: 10em;
+  margin-left: 70px;
+}
+.collapse {
+  padding-left: 500px;
+}
+.nav-link {
+  color: #ff8686;
+  font-family: "Charter Black";
+  font-size: 20px;
+  margin-left: 20px;
+}
+.iicon {
+  margin-left: 100px;
+  font-size: 30px;
 }
 
+.iicon i:not(:last-child) {
+  margin-right: 40px;
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -83,24 +101,4 @@ body {
   .featurette-heading {
     margin-top: 7rem;
   }
-}
-.container {
-  background-image: url(./img/bgi1.jpg);
-  height: 6580px;
-  width: 100%;
-  max-width: none;
-  margin: 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.container2 {
-  background-image: url(./img/bgi2.jpg);
-
-  height: 2400px;
-  width: 100%;
-  max-width: none;
-  margin: 0;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
