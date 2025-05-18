@@ -1,3 +1,9 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
@@ -35,26 +41,19 @@ body {
 
 /*  bgi(↓テンプレじゃない)
 -------------------------------------------------- */
+.container,
+.container2 {
+  width: 100%;
+  background-repeat: no-repeat; /*繰り返さない*/
+  background-size: cover;
+  background-position: center;
+  position: relative; /* 子要素を重ねるために必要 */
+}
 
 .container {
   background-image: url(./img/bgi1.jpg);
   height: 6580px;
-  width: 100%;
-  max-width: none;
-  margin: 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.container2 {
-  background-image: url(./img/bgi2.jpg);
-
-  height: 2400px;
-  width: 100%;
-  max-width: none;
-  margin: 0;
-  background-repeat: no-repeat;
-  background-size: cover;
+  max-width: 100%;
 }
 
 /*  nav
@@ -79,7 +78,78 @@ body {
 }
 
 .iicon i:not(:last-child) {
-  margin-right: 40px;
+  margin-right: 40px; /*iconのiクラスだけ*/
+}
+
+/* 背景の上に置くコンテンツ （concept）
+-------------------------------------------------- */
+.content img {
+  position: absolute; /*親のrelativeの中で自由に配置できる*/
+  top: 7%; /* 中央に配置 */
+  left: 15em;
+  width: 25em; /* 画像を元の2倍に拡大 */
+  height: auto;
+}
+.content2 img {
+  position: absolute;
+  top: 7.5%; /* 中央に配置 */
+  left: 16%;
+  height: 25em;
+}
+
+.content-text {
+  position: absolute;
+  top: 9%;
+  left: 50%;
+}
+
+.content-text h1 {
+  padding-bottom: 30px;
+}
+
+.content-text p {
+  margin-left: 10px;
+}
+
+.content3 img {
+  position: absolute;
+  top: 17%;
+  right: 15em;
+  width: 25em;
+  height: auto;
+}
+.content4 img {
+  position: absolute;
+  top: 17.5%;
+  right: 16%;
+  height: 25em;
+}
+
+.content-text2 {
+  position: absolute;
+  top: 19%;
+  right: 45%;
+}
+
+/* 背景の上に置くコンテンツ （main）
+-------------------------------------------------- */
+.main1 img {
+  position: absolute;
+  top: 275.5%;
+  left: 0.4%;
+  height: 30em;
+}
+.main2 img {
+  position: absolute;
+  top: 275.5%;
+  left: 31.43%;
+  height: 30em;
+}
+.main3 img {
+  position: absolute;
+  top: 275.5%;
+  left: 62.43%;
+  height: 30em;
 }
 /* RESPONSIVE CSS
 -------------------------------------------------- */
