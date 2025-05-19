@@ -139,18 +139,136 @@ body {
   left: 0.4%;
   height: 30em;
 }
+
+.main1-content img {
+  position: absolute;
+  height: 20em;
+  top: 283.5%;
+  left: 10.6%;
+  border-radius: 50%; /* これで丸くなる！ */
+  object-fit: cover; /* はみ出さず綺麗に収まる */
+
+  transition: transform 0.3s ease; /* スムーズなアニメーション */
+}
+
+.main1-content img:hover {
+  transform: scale(1.08); /* 1.05倍に拡大 */
+}
+
+.main1-content-text {
+  position: absolute;
+  top: 325%;
+  left: 15.5%;
+  font-size: 30px;
+  color: #fffafa;
+  font-family: "arial black";
+}
+
+.main1-box {
+  position: absolute;
+  top: 332%;
+  left: 13%;
+  width: 270px;
+  height: 150px;
+  background-color: rgba(245, 245, 245, 0.5); /* ← ここで薄さを指定 */
+  padding: 20px;
+  color: #545454;
+  font-weight: bold;
+  font-family: "arial black";
+}
 .main2 img {
   position: absolute;
   top: 275.5%;
   left: 31.43%;
   height: 30em;
 }
+.main2-content img {
+  position: absolute;
+  height: 20em;
+  top: 283.5%;
+  left: 42%;
+  border-radius: 50%; /* これで丸くなる！ */
+  object-fit: cover; /* はみ出さず綺麗に収まる */
+
+  transition: transform 0.3s ease; /* スムーズなアニメーション */
+}
+
+.main2-content img:hover {
+  transform: scale(1.08); /* 1.05倍に拡大 */
+}
+
+.main2-content-text {
+  position: absolute;
+  top: 325%;
+  left: 45%;
+  font-size: 30px;
+  color: #fffafa;
+  font-family: "arial black";
+}
+
+.main2-box {
+  position: absolute;
+  top: 332%;
+  left: 44%;
+  width: 270px;
+  height: 150px;
+  background-color: rgba(245, 245, 245, 0.5); /* ← ここで薄さを指定 */
+  padding: 20px;
+  color: #545454;
+  font-weight: bold;
+  font-family: "arial black";
+}
+
 .main3 img {
   position: absolute;
   top: 275.5%;
   left: 62.43%;
   height: 30em;
 }
+
+.main3-content img {
+  position: absolute;
+  height: 20em;
+  top: 283.5%;
+  left: 73%;
+  border-radius: 50%; /* これで丸くなる！ */
+  object-fit: cover; /* はみ出さず綺麗に収まる */
+
+  transition: transform 0.3s ease; /* スムーズなアニメーション */
+}
+
+.main3-content img:hover {
+  transform: scale(1.08); /* 1.05倍に拡大 */
+}
+
+.main3-content-text {
+  position: absolute;
+  top: 325%;
+  left: 77%;
+  font-size: 30px;
+  color: #fffafa;
+  font-family: "arial black";
+}
+
+.main3-box {
+  position: absolute;
+  top: 332%;
+  left: 75%;
+  width: 270px;
+  height: 150px;
+  background-color: rgba(245, 245, 245, 0.5); /* ← ここで薄さを指定 */
+  padding: 20px;
+  color: #545454;
+  font-weight: bold;
+  font-family: "arial black";
+}
+
+.main3-content-text:hover,
+.main2-content-text:hover,
+.main1-content-text:hover {
+  color: #ff69b4; /* ホバー時にピンクに */
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
