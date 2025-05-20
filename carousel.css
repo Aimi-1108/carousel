@@ -269,6 +269,99 @@ body {
   color: #ff69b4; /* ホバー時にピンクに */
 }
 
+/* （collaboration）
+-------------------------------------------------- */
+.corabo1 img {
+  position: absolute;
+  top: 400%;
+  left: 50%;
+  height: 23em;
+}
+
+.corabo2 img {
+  position: absolute;
+  top: 385%;
+  left: 50%;
+  height: 12em;
+}
+
+.corabo3 img {
+  position: absolute;
+  top: 400%;
+  left: 72%;
+  height: 23em;
+}
+
+.corabo4 img {
+  position: absolute;
+  top: 439%;
+  left: 72%;
+  height: 23em;
+}
+
+.corabo5 img {
+  position: absolute;
+  top: 439%;
+  left: 57%;
+  height: 23em;
+}
+
+.corabo6 img {
+  position: absolute;
+  top: 439%;
+  left: 40%;
+  height: 25em;
+}
+
+.corabo7 img {
+  position: absolute;
+  top: 370%;
+  left: 75%;
+  height: 24em;
+}
+
+.corabo-box {
+  position: absolute;
+  top: 400%;
+  left: 11%;
+  width: 500px;
+  height: 745px;
+  background-color: rgba(245, 245, 245, 0.5); /* ← ここで薄さを指定 */
+  padding: 20px;
+  color: #545454;
+  font-weight: bold;
+  font-family: "arial black";
+
+  border-radius: 10%;
+}
+
+.corabo-box h1 {
+  border-bottom: 2px solid rgb(255, 117, 140); /* 線の色と太さ */
+  display: inline-block; /* テキスト幅だけ線を引く */
+  padding-bottom: 4px; /* 文字と線の間に余白 */
+  color: #ff7676;
+  margin-left: 120px;
+}
+
+.corabo-box h2 {
+  padding-top: 20px;
+}
+
+.corabo-box h2 span {
+  color: #ff53d4;
+}
+
+.corabo-text {
+  position: absolute;
+  color: #ebff77;
+  top: 385%;
+  left: 50px;
+  font-size: 60px;
+  font-family: "arial black";
+  font-style: italic; /*手書き風斜め文字*/
+  transform: rotate(-15deg); /* マイナスで左下がり、プラスで右上がり */
+  display: inline-block;
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
