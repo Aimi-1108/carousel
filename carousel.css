@@ -43,7 +43,6 @@ body {
 -------------------------------------------------- */
 .container,
 .container2 {
-  width: 100%;
   background-repeat: no-repeat; /*繰り返さない*/
   background-size: cover;
   background-position: center;
@@ -54,6 +53,14 @@ body {
   background-image: url(./img/bgi1.jpg);
   height: 6580px;
   max-width: 100%;
+}
+
+.container2 {
+  background-image: url(./img/bgi2.jpg);
+  height: 2560px; /* 画面の高さに合わせる */
+  background-size: cover; /* コンテナ全体を覆う（はみ出てもOK） */
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /*  nav
@@ -385,6 +392,125 @@ body {
 .corabo-box2:hover {
   background-color: #ffa0a0;
 }
+
+/* (commitment)
+-------------------------------------------------- */
+
+.content-commitment {
+  position: absolute;
+  top: 520%;
+  left: 50%;
+  width: 855px;
+  height: 290px;
+  background-color: rgba(177, 221, 255, 0.5); /* ← ここで薄さを指定 */
+  padding: 20px;
+  color: #545454;
+  font-weight: bold;
+  font-family: serif;
+  font-size: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.content-commitment-text {
+  padding-top: 30px;
+  padding-left: 70px;
+}
+
+.content-commitmen2 {
+  position: absolute;
+  top: 564%;
+  left: 60%;
+  width: 685px;
+  height: 290px;
+  background-color: rgba(170, 255, 194, 0.5); /* ← ここで薄さを指定 */
+  padding: 20px;
+  color: #545454;
+  font-weight: bold;
+  font-family: serif;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.commitment-img img {
+  position: absolute;
+  top: 521%;
+  left: 5%;
+  height: 45em;
+}
+
+/* (gallery)
+-------------------------------------------------- */
+
+.gallery1 img {
+  position: absolute;
+  top: 655%;
+  left: 72%;
+  height: 20em;
+}
+.gallery2 img {
+  position: absolute;
+  top: 655%;
+  left: 53%;
+  height: 20em;
+}
+
+.gallery3 img {
+  position: absolute;
+  top: 690%;
+  left: 53%;
+  height: 19em;
+}
+
+.gallery4 img {
+  position: absolute;
+  top: 690%;
+  left: 72%;
+  height: 19em;
+}
+
+.content-gallery img:hover {
+  transform: scale(1.1);
+}
+
+.gallery-text ul {
+  position: absolute;
+  top: 675%;
+  left: 20%;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.gallery-text2 h1 {
+  position: absolute;
+  top: 705%;
+  left: 20%;
+  color: #ff3ad4;
+  font-weight: bold; /*太文字にする*/
+}
+
+.gallery-icon img {
+  position: absolute;
+  top: 680%;
+  left: 2%;
+  height: 13em;
+  border-radius: 18%;
+}
+
+.gallery-icon img:hover {
+  transform: scale(1.1);
+}
+
+/* （shop）
+-------------------------------------------------- */
+
+.shop-text h1 {
+  position: absolute;
+  top: 12%;
+  left: 55%;
+  font-family: Courier;
+  color: #5d5d5d;
+  background-color: #ffe5e5ae;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
