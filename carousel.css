@@ -510,7 +510,83 @@ body {
   color: #5d5d5d;
   background-color: #ffe5e5ae;
 }
+.shop-text h2 {
+  position: absolute;
+  top: 14%;
+  left: 53%;
+  font-family: Courier;
+  color: #5d5d5d;
+  background-color: #fbffc7ae;
+}
 
+.shop span {
+  color: #ff91a0;
+}
+.shop-text2 p {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  font-family: Courier;
+  color: #5d5d5d;
+  font-size: 30px;
+  border-bottom: 2px solid #6b6b6b; /* 太さ3px、色は黒 */
+  margin-bottom: 10px;
+}
+.shop-text3 p {
+  position: absolute;
+  top: 21%;
+  left: 50%;
+  font-family: Courier;
+  color: #5d5d5d;
+  font-size: 30px;
+  border-bottom: 2px solid #6b6b6b; /* 太さ3px、色は黒 */
+  margin-bottom: 10px;
+}
+
+.shop-text4 p {
+  position: absolute;
+  top: 24%;
+  left: 50%;
+  font-family: Courier;
+  color: #5d5d5d;
+  font-size: 30px;
+  border-bottom: 2px solid #6b6b6b; /* 太さ3px、色は黒 */
+  margin-bottom: 10px;
+}
+
+.shop-text5 p {
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  font-family: Courier;
+  color: #5d5d5d;
+  font-size: 30px;
+  border-bottom: 2px solid #6b6b6b; /* 太さ3px、色は黒 */
+  margin-bottom: 10px;
+}
+
+.shop-img img {
+  position: absolute;
+  top: 11%;
+  left: 7%;
+  height: 40em;
+  box-shadow: 12px 12px 12px rgba(255, 139, 207, 0.446); /* 横・縦・ぼかし・色 */
+  border-radius: 8px; /* 角を少し丸く（任意） */
+}
+
+.shop-map a {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  font-size: 30px;
+  border-bottom: 2px solid #6b6b6b; /* 太さ3px、色は黒 */
+  text-decoration: none; /* 下線をなくす */
+  color: #ff91a0;
+}
+
+.shop-map a:hover {
+  transform: scale(1.5); /* 1.05倍に拡大 */
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
