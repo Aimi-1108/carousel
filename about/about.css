@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff3e6;
+  background-image: url("data:image/svg+xml,%3Csvg width='34' height='34' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Ctext x='0' y='75' font-size='90'%3E🍊%3C/text%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg width='36' height='36' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Ctext x='0' y='75' font-size='90'%3E🍋%3C/text%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg width='33' height='33' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Ctext x='0' y='75' font-size='90'%3E🍑%3C/text%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg width='38' height='38' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Ctext x='0' y='75' font-size='90'%3E🍊%3C/text%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg width='35' height='35' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Ctext x='0' y='75' font-size='90'%3E🍋%3C/text%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg width='34' height='34' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Ctext x='0' y='75' font-size='90'%3E🍑%3C/text%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg width='36' height='36' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Ctext x='0' y='75' font-size='90'%3E🍊%3C/text%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg width='37' height='37' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Ctext x='0' y='75' font-size='90'%3E🍑%3C/text%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Ctext x='0' y='75' font-size='90'%3E🍋%3C/text%3E%3C/svg%3E"),
+    url("data:image/svg+xml,%3Csvg width='38' height='38' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Ctext x='0' y='75' font-size='90'%3E🍑%3C/text%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: 4% 8%, 15% 65%, 80% 5%, 60% 15%, 95% 35%, 20% 90%,
+    40% 75%, 70% 50%, 88% 88%, 10% 30%;
+  background-size: auto;
+  font-family: "Quicksand", sans-serif;
+  color: #4a3b31;
+}
+
+.memo-wrapper {
+  max-width: 740px;
+  margin: 70px auto;
+  padding: 35px 25px 60px;
+  background-color: #fffdf8;
+  border: 4px dotted #ffb07c;
+  border-radius: 28px;
+  box-shadow: 0 10px 25px rgba(255, 153, 102, 0.2);
+  position: relative;
+}
+
+.ring {
+  width: 100%;
+  height: 20px;
+  background: repeating-linear-gradient(
+    to right,
+    transparent,
+    transparent 16px,
+    #ffa756 16px,
+    #ffa756 20px
+  );
+  position: absolute;
+  top: -26px;
+  left: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.memo h1 {
+  font-size: 2.3rem;
+  color: #ff884d;
+  margin-bottom: 25px;
+  text-align: center;
+  position: relative;
+  font-family: "Quicksand", sans-serif;
+}
+
+.memo h1::after {
+  content: "🧡";
+  position: absolute;
+  right: -35px;
+  top: 0;
+  font-size: 1.5rem;
+}
+
+.memo p {
+  line-height: 1.85;
+  margin-bottom: 18px;
+  font-size: 1.05rem;
+}
+
+.memo p strong {
+  color: #ff7744;
+}
+
+.memo .highlight {
+  background-color: #ffe6cc;
+  padding: 2px 6px;
+  border-radius: 8px;
+  color: #d94d00;
+}
+
+.korean {
+  font-style: italic;
+  color: #ff8a65;
+  text-align: left;
+  padding-left: 20px;
+  border-left: 3px solid #ffc7aa;
+  margin-top: 12px;
+  font-size: 0.95rem;
+}
