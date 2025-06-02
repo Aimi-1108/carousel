@@ -41,7 +41,7 @@ body {
 
 /*  bgi(↓テンプレじゃない)
 -------------------------------------------------- */
-.container,
+.container0,
 .container2 {
   background-repeat: no-repeat; /*繰り返さない*/
   background-size: cover;
@@ -49,7 +49,7 @@ body {
   position: relative; /* 子要素を重ねるために必要 */
 }
 
-.container {
+.container0 {
   background-image: url(./img/bgi1.jpg);
   height: 6580px;
   max-width: 100%;
@@ -71,21 +71,23 @@ body {
   margin-left: 70px;
 }
 .collapse {
-  padding-left: 500px;
+  padding-left: 900px;
 }
 .nav-link {
   color: #ff8686;
   font-family: "Charter Black";
-  font-size: 20px;
-  margin-left: 20px;
+  font-size: 25px;
+}
+.nav-item {
+  padding-left: 20px;
 }
 .iicon {
-  margin-left: 100px;
+  margin-left: 90px;
   font-size: 30px;
 }
 
 .iicon i:not(:last-child) {
-  margin-right: 40px; /*iconのiクラスだけ*/
+  margin-right: 60px; /*iconのiクラスだけ*/
 }
 
 /* 背景の上に置くコンテンツ （concept）
@@ -591,75 +593,51 @@ body {
 /* all
 -------------------------------------------------- */
 
-.all-text a {
+.all-text p {
   position: absolute;
-  top: 64.5%;
+  top: 57%;
   left: 10%;
-  font-size: 40px;
-  font-family: "Times New Roman";
+  font-size: 50px;
+  font-family: "Hannotate SC";
   font-weight: bold;
   color: #ff9317;
 }
 
-.all-text2 a {
+.all-text2 p {
   position: absolute;
-  top: 58%;
-  left: 16%;
-  font-size: 40px;
-  font-family: "Times New Roman";
-  font-weight: bold;
-  color: #ff9317;
-}
-
-.all-text3 a {
-  position: absolute;
-  top: 64.5%;
-  left: 29%;
-  font-size: 40px;
-  font-family: "Times New Roman";
-  font-weight: bold;
-  color: #ff9317;
-}
-.all-text4 a {
-  position: absolute;
-  top: 58%;
-  left: 35%;
+  top: 61%;
+  left: 13%;
   font-size: 35px;
-  font-family: "Times New Roman";
+  font-family: "Hannotate SC";
   font-weight: bold;
   color: #ff9317;
 }
 
-.all-text5 a {
-  position: absolute;
-  top: 64.5%;
-  left: 47%;
-  font-size: 40px;
-  font-family: "Times New Roman";
-  font-weight: bold;
-  color: #ff9317;
+.all-text3,
+.all-text2,
+p span {
+  color: #ff5eac;
 }
 
-.all-text6 a {
+.all-text3 p {
   position: absolute;
-  top: 58%;
-  left: 63%;
+  top: 64%;
+  left: 15%;
   font-size: 35px;
-  font-family: "Times New Roman";
+  font-family: "Hannotate SC";
   font-weight: bold;
   color: #ff9317;
 }
 
-.all-text7 a {
+.all-text4 p {
   position: absolute;
-  top: 64.5%;
-  left: 77%;
-  font-size: 40px;
-  font-family: "Times New Roman";
+  top: 67.6%;
+  left: 58%;
+  font-size: 45px;
+  font-family: "Hannotate SC";
   font-weight: bold;
   color: #ff9317;
 }
-
 .message h1 {
   position: absolute;
   top: 83%;
@@ -688,6 +666,8 @@ body {
   color: #606060;
   font-weight: bold;
 }
+
+/* 固定ナビの高さだけ上にマージンをとる */
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
