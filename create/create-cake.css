@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+
+body {
+  font-family: "Noto Sans JP", "Gowun Dodum", sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px 20px;
+  background: #ffe8f0;
+  border-bottom: 3px dashed #f8b7cf;
+}
+
+h1 {
+  font-size: 2.8rem;
+  color: #de709d;
+  margin-bottom: 12px;
+  font-family: TsukuARdGothic-Regular;
+}
+
+.intro {
+  font-size: 1.2rem;
+  color: #a86484;
+  background: #fffbfd;
+  padding: 14px;
+  border-radius: 16px;
+  display: inline-block;
+  max-width: 90%;
+  line-height: 1.6;
+  box-shadow: 0 0 8px #f9c5db88;
+}
+
+.cake-form {
+  background: #fff7fb;
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 600px;
+  margin: 40px auto;
+  box-shadow: 0 0 15px rgba(255, 182, 193, 0.25);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+label {
+  font-size: 1.2rem;
+  color: #b05070;
+}
+
+input,
+select {
+  font-family: "Nanum Pen Script", cursive;
+  padding: 10px 14px;
+  font-size: 1.1rem;
+  border: 2px solid #f6c1d7;
+  border-radius: 12px;
+  background: #fff;
+  color: #444;
+  outline: none;
+  transition: border 0.3s;
+}
+
+input:focus,
+select:focus {
+  border-color: #ff8ab3;
+}
+
+button {
+  margin-top: 20px;
+  background: linear-gradient(to right, #ffaecb, #f4c1de);
+  color: white;
+  border: none;
+  font-size: 1.4rem;
+  padding: 14px;
+  border-radius: 14px;
+  cursor: pointer;
+  font-family: "Nanum Pen Script", cursive;
+  transition: background 0.3s, transform 0.2s;
+  box-shadow: 0 4px 8px rgba(255, 183, 197, 0.4);
+}
+
+button:hover {
+  background: linear-gradient(to right, #ff93c4, #f1accb);
+  transform: translateY(-3px);
+}
+
+footer {
+  text-align: center;
+  margin-top: 60px;
+  padding: 20px;
+  font-size: 1.1rem;
+  color: #c77b98;
+  background: #ffe9f4;
+  border-top: 2px dashed #f9c5db;
+}
