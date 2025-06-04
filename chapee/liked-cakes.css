@@ -72,3 +72,26 @@ h1::after {
   height: 100%;
   object-fit: cover;
 }
+
+.add-cart {
+  margin-top: 8px;
+  padding: 6px 12px;
+  background-color: #fa97ca;
+  color: white;
+  font-size: 0.85rem;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(255, 138, 176, 0.3);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-family: "Quicksand", sans-serif;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.add-cart:hover {
+  background-color: #f75cdd;
+  transform: translateX(-50%) scale(1.05);
+}
