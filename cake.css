@@ -16,7 +16,13 @@ h1 {
   color: #e0ac6d;
   border: none;
 }
-
+.heart-red img {
+  width: 25px; /* 横幅を100ピクセルに */
+  height: auto; /* 高さは自動でアスペクト比を維持 */
+  position: absolute;
+  top: 387px;
+  left: 510px;
+}
 .memo-cake-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -37,6 +43,7 @@ h1 {
   width: 100%;
   height: auto;
   overflow: hidden;
+  position: relative;
 }
 
 .memo-cake-img img {
